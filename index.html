@@ -80,9 +80,11 @@ let domain = window.location.hostname;
 </div>
 
 <script>
-let loc = "get_random_bot.php/?domain=" + domain;
+let domain = "info_glazbot"; // Здесь можно задать нужный домен, если он необходим
+let loc = "https://t.me/" + domain; // Формируем ссылку
 document.write('<a href="' + loc + '" class="button--action--large button--third"><span>Перейти в Бот</span></a>');  
 </script>
+
 
 
 <script>
