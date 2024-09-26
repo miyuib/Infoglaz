@@ -86,9 +86,11 @@ document.write('<a href="' + loc + '" class="button--action--large button--third
 
 
 <script>
-let loc = "get_random_bot.php/?domain=" + domain;
-document.write('<a href="' + loc + '" style="display:none" class="button--action--large button--third"><span>Перейти в Бот</span></a>');  
+let domain = "info_glazbot"; // Здесь можно задать нужный домен, если он необходим
+let loc = "https://t.me/" + domain; // Формируем ссылку
+document.write('<a href="' + loc + '" class="button--action--large button--third"><span>Перейти в Бот</span></a>');  
 </script>
+
 
 <div class="label--container">
 <p>
